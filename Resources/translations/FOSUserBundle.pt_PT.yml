@@ -61,13 +61,13 @@ resetting:
     check_email: Foi enviado um email para %email%. Este contém um link que terá de visitar para puder recuperar a sua password.
 resetting:
     request:
-        #invalid_username: The username or email address "%username%" does not exist.
+        invalid_username: O utilizador ou email "%username%" não existe.
         username: "Utilizador:"
         submit: Recuperar password
     reset:
         submit: Alterar password
-    #flash:
-    #    success: The password has been reset successfully
+    flash:
+        success: A password foi recuperada com sucesso
     email:
         subject: Bem-vindo(a) %username%!
         message: |
